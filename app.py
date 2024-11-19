@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 
 # Load datasets
-file_paths = ['D:/ASIK/2010_b.csv', 'D:/ASIK/2015_b.csv', 'D:/ASIK/2020_b.csv']
+file_paths = ['2010_b.csv', '2015_b.csv', '2020_b.csv']
 datasets = [pd.read_csv(file) for file in file_paths]
 data = pd.concat(datasets, ignore_index=True)
 
