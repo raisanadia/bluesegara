@@ -36,6 +36,7 @@ for target in targets:
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # App layout
 app.layout = html.Div([
